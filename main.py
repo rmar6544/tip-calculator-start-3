@@ -26,4 +26,4 @@ results = (bill_amount / split) * (tip / 100 + 1)
 
 #printed results of total
 
-print(f"Each person should pay {round(results,2)}")
+print(f'Each person should pay {format(results,".2f")}')
